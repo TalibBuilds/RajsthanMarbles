@@ -1,0 +1,110 @@
+/* FULL SCREEN BACKGROUND */
+.loginWrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2C3E50; /* pure black */
+    padding-bottom: 190px;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+  
+  /* LOGIN CARD */
+  .loginForm {
+    width: 350px;
+    height: 60vh;
+    padding: 30px 25px;
+    background: cornsilk;
+    border-radius: 15px;
+    border: 1px solid #2C3E50;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+    color: #2C3E50;
+  }
+  
+  /* HEADING */
+  .title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #2C3E50; 
+    margin-bottom: 5px;
+  }
+  
+  /* INPUT GROUP */
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #2C3E50;
+  }
+  
+  /* INPUT BOX */
+  .inputGroup input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    background: #2C3E50; 
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  /* FOCUS STATE */
+  .inputGroup input:focus {
+    border-color: #1bbd4c;
+    border: 1px solid #1bbd4c;
+  }
+  
+  /* LOGIN BUTTON */
+  .loginBtn {
+    width: 100%;
+    padding: 12px;
+    background: #1e5f8a; 
+    color:cornsilk ;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+  }
+  
+  /* BUTTON HOVER */
+  .loginBtn:hover {
+    background: rgb(5, 143, 113); 
+   color: cornsilk;
+  }
+  
+  /* SIGNUP TEXT */
+  .signupText {
+    text-align: center;
+    font-size: 15px;
+    color: #2C3E50;
+    margin-top: 8px;
+    font-weight: 600;
+  } 
+  .signupText a {
+    color: #1c252e;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+  .signupText a:hover {
+    text-decoration: underline;
+  }
+  

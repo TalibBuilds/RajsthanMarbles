@@ -1,0 +1,29 @@
+.nav2 .back {
+  background-color: #92c015;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border: 0.8px solid white;
+}
+
+.nav2 .next {
+  padding: 12px 25px;
+  
+  background-color: #f34612;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0); 
+  border: 0.8px solid white;
+}
+
+.nav2 {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}

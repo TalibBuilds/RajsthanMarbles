@@ -1,0 +1,92 @@
+.bigtext {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70vh;
+    overflow-x: hidden;
+}
+
+.h1{
+    font-family: futura;
+    font-size: 7.2rem;
+    font-weight: 900;
+    color: #000000;
+    text-transform: uppercase; 
+    transition: 0.3s;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 2px 2px gray;
+    padding: 20px 30px;
+}
+
+.animate {
+    white-space: nowrap; 
+    display: flex; 
+    flex-direction: column;
+    gap: 30px;
+}
+
+span {
+    animation: spin 5s infinite linear; 
+    padding: 15px 30px;
+}
+
+#span1 {
+    animation: spin 5s infinite linear; 
+}
+
+#span2 {
+    animation: spinn 4s infinite reverse; 
+}
+
+/* The single, continuous animation */
+@keyframes spinn {
+    from {
+        /* Start position */
+        transform: translateX(-10%); 
+    }
+    to {
+        transform: translateX(28%);
+    }
+}
+
+
+.scrollingText {
+    white-space: nowrap; 
+    flex-shrink: 0; 
+    font-family: helvetica; 
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #daab13;
+    text-shadow: 1px 2px 3px black;
+}
+
+/* The single, continuous animation */ 
+@keyframes spin {
+    from {
+        transform: translateX(-10%); 
+    }
+    to {
+        transform: translateX(28%);
+    }
+}
+
+.scrollingText:hover{
+    background-color: #bee349;
+    color: rgb(107, 106, 106);
+}
+
+.animate::-webkit-scrollbar{
+    display: none;
+}
+
+.h2:hover {
+    opacity: 0.7;
+    border: none;
+    background-image: url(https://images.unsplash.com/photo-1756038714389-8ff4e5967ed5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzNHxDRHd1d1hKQWJFd3x8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=400);
+}
+
+

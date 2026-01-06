@@ -1,0 +1,24 @@
+.heading {
+  margin-top: 10vh;
+  text-align: center;
+  background-color: #2c3e50;
+  /* margin-top: 3vh; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 6.1vh;
+  box-shadow: 0px 4px 10px rgba(243, 136, 6, 0.322),
+    0px 2px 4px rgb(107, 105, 102);
+}
+
+.heading h1 {
+  text-transform: capitalize;
+  color: cornsilk;
+
+}
+
+.heading p {
+  text-transform: capitalize;
+  color: rgb(180, 177, 177);
+}

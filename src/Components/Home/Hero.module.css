@@ -1,0 +1,41 @@
+.maan {
+    background-color: #2C3E50;
+    padding: 20px;
+    height: 70vh;
+    width: 100%;
+    
+    
+    box-shadow: 0px 4px 10px rgba(243, 136, 6, 0.322), 0px 2px 4px rgb(107, 105, 102);
+}
+
+.main {
+    height: 100%; 
+    width: 100%; 
+    
+    background-color: rgba(224, 201, 151, 0.075);
+    padding: 15px 25px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #A8A39D;
+    border-radius: 1%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 🟢 Added to ensure the image covers the area */
+}
+
+.img:hover {
+    opacity: 1; 
+    scale: 1.05; 
+}
+

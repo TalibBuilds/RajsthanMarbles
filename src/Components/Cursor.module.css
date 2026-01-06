@@ -1,0 +1,14 @@
+.cursor {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.432);
+  position: fixed; 
+  pointer-events: none; 
+  transform: translate(-50%, -50%); 
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  border-radius: 50%;
+}
